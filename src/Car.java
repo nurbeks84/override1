@@ -23,7 +23,9 @@ public class Car {
         return name1;
     }
 
-    public void setName1(String name1) {
+    public Car(String name, int years, String name1) {
+        this.name = name;
+        this.years = years;
         this.name1 = name1;
     }
 
